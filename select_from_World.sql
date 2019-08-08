@@ -51,7 +51,7 @@ SELECT name FROM world
   FROM world
  WHERE capital = concat(name, ' City')
 
---#13. Show the countries wwhere the capital includes the name of the country
+--#13. Show the countries where the capital includes the name of the country
 SELECT capital, name
   FROM world
   WHERE capital LIKE concat('%', name, '%')
